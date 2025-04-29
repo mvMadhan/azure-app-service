@@ -8,7 +8,7 @@ This guide outlines the steps to create an Azure App Service and set up continuo
 
 1. Login to azure account
    
-2. Click on **search** **(1)**
+2. Click on **search** **(1)** bar.
    
    ![search](images/1.png)
 
