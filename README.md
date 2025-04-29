@@ -1,5 +1,11 @@
 # AZURE APP SERVICE CREATION
 
+# OVERVIEW
+
+This guide outlines the steps to create an Azure App Service and set up continuous deployment (CI/CD) using GitHub Actions. By integrating GitHub with Azure, you can        automate your application's deployment process, ensuring that updates to your codebase are seamlessly reflected in your live application.
+
+## TASKS
+
 1. Login to azure account
    
 2. Click on **search** **(1)**
@@ -10,11 +16,11 @@
 
    ![select](images/2.png)
 
-4. In the App Services page, click on Create on top left.
+4. In the App Services page, click on **Create** **(1)** on top left.
 
    ![create](images/3.png)
 
-5. click on Web App. The Create web app page opens.
+5. Click on **Web App** **(2)**. The Create web app page opens.
 
    ![click](images/3.1.png)
 
