@@ -102,6 +102,8 @@ This guide outlines the steps to create an Azure App Service and set up continuo
 
     ![result](images/17.png)
 
+    ![output](images/18out.png)
+
     
     
 
