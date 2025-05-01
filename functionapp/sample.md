@@ -33,7 +33,7 @@ This exercise is designed to provide hands-on experience in setting up an event-
 3. On the **left sidebar**, click on the **Azure** **(1)** icon (it looks like an "A" or a cloud).
        - If you don't see it, press `Ctrl+Shift+X` to open the **Extensions** tab, search for `Azure Tools`, and install it.
    
-4 After clicking the Azure icon, you'll see a panel labeled **Account & Tenants** **(2)** click it and Click on **"Sign in to Azure..."** **(3)** button. Now a pop message will come just click **Allow**.
+4. After clicking the Azure icon, you'll see a panel labeled **Account & Tenants** **(2)** click it and Click on **"Sign in to Azure..."** **(3)** button. Now a pop message will come just click **Allow**.
 
    ![azure](images/2.png)
 
@@ -83,8 +83,14 @@ This exercise is designed to provide hands-on experience in setting up an event-
 
     ![key](images/17.png)
 
-15. Open the **local.settings.json** **(7)** file in your Function App project. Paste the copied `connection string` into the **AzureWebJobsStorage** **(8)** field.
+15. In **Visual Studio Code**, Open the **local.settings.json** **(7)** file in your Function App project. Paste the copied `connection string` into the **AzureWebJobsStorage** **(8)** field.
 
     ![csting](images/18.png)
     
+16. Press **Ctrl+Shift+A** on top-left click on
+
+    ![azure](images/19.png)
+
+17. Under Azure Subscription , Go to **Function app** **(4)** and right-click and click **create azure function app** **(5)**
+
     
