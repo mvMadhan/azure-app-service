@@ -45,7 +45,7 @@ This exercise is designed to provide hands-on experience in setting up an event-
 
    ![select](images/6.png)
 
-7. In **Visual Studio Code**, when prompted to select a folder for your project, the **Select Folder** dialog will appear. From the left panel, click on **Desktop** **(3)**. Click the **New folder** **(4)** button at the top.
+7. When prompted to select a folder for your project, the **Select Folder** dialog will appear. From the left panel, click on **Desktop** **(3)**. Click the **New folder** **(4)** button at the top.
    
 8. A new folder will be created with the default name `New folder`. Rename it to something meaningful, such as `Functionapp` **(5)** and then click the **Select** **(6)** button at the bottom right.
 
@@ -87,10 +87,52 @@ This exercise is designed to provide hands-on experience in setting up an event-
 
     ![csting](images/18.png)
     
-16. Press **Ctrl+Shift+A** on top-left click on
+16. Press **Ctrl+Shift+A** to open the Azure extension in Visual Studio Code **Under Account and Tenant**  click the **checkbox** to select the appropriate **subscription** **(1)**. At the top, under the **Resources section** **(2)** (above "Account and Tenant"), **click on Subscription** **(3)** to list all associated resources.
 
     ![azure](images/19.png)
 
-17. Under Azure Subscription , Go to **Function app** **(4)** and right-click and click **create azure function app** **(5)**
+17 Under your selected Azure Subscription, expand the **Function app** **(4)** section. Right-click on Function App and select **create function app in Azure** **(5)** to begin the setup process.
+
+    ![create](images/20.png)
+
+18. Enter the **function app name** **(6)** as **newfuntrigger**, then select the **region** **(7)**from the drop down as **West us 2**
+
+    ![name](images/21.png)
+
+    ![region](images/22.png)
+
+19. From the **Runtime stack** dropdown, choose **Python 3.11** **(8)** Next , select the **Instance memory size** form the drop down as **2048** **(9)**
+
+    ![stack](images/23.png)
+
+    ![memory](images/24.png)
+
+20. Enter **maximum instance count** as **100** **(10)** and press Enter
+
+    ![created](images/25.png)
+
+21. Under your selected **Subscription** **(1)**, expand the **Function App** **(2)** section. Locate the newly created **Function App newfuntrigger** **(3)**, right-click on it, and select Deploy to **Function App** **(4)**.
+
+    ![deploy](images/26.png)
+
+22. A warning message will appear stating that deploying will overwrite any existing content. Ignore the warning and **click Deploy** **(4)** to proceed.
+
+    ![warning](images/27.png)
+
+23. After deployment is complete, Navigate to the **Storage Account** **(1)** section and select the Storage Account linked to your Function App **funappstorages** **(2)**.Under the selected Storage Account, expand the **Blob Containers** **(3)** section. Open the **images container** **(4)**, **right-click**, and select** Upload Files** **(5)**.
+
+    ![upload](images/28.png)
+
+24. You will be prompted to select an image file. From the left panel, Navigate to your **Pictures folder** **(6)**, choose the desired **image** **(7)**, and click **Upload** **(8)** to complete the process.
+
+    ![completed](images/29.png)
+
+
+
+    
+
+
+
+
 
     
