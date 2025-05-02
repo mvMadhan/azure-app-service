@@ -87,51 +87,51 @@ This exercise is designed to provide hands-on experience in setting up an event-
 
     ![csting](images/18.png)
     
-16. Press **Ctrl+Shift+A** to open the Azure extension in Visual Studio Code **Under Account and Tenant**  click the **checkbox** to select the appropriate **subscription** **(1)**. At the top, under the **Resources section** **(2)** (above "Account and Tenant"), **click on Subscription** **(3)** to list all associated resources.
+17. Press **Ctrl+Shift+A** to open the Azure extension in Visual Studio Code **Under Account and Tenant**  click the **checkbox** to select the appropriate **subscription** **(1)**. At the top, under the **Resources section** **(2)** (above "Account and Tenant"), **click on Subscription** **(3)** to list all associated resources.
 
     ![azure](images/19.png)
 
-17. Under your selected Azure Subscription, expand the **Function app** **(4)** section. Right-click on Function App and select **create function app in Azure** **(5)** to begin the setup process.
+18. Under your selected Azure Subscription, expand the **Function app** **(4)** section. Right-click on Function App and select **create function app in Azure** **(5)** to begin the setup process.
 
     ![create](images/20.png)
 
-18. Enter the **function app name** **(6)** as **newfuntrigger**, then select the **region** **(7)**from the drop down as **West us 2**
+19. Enter the **function app name** **(6)** as **newfuntrigger**, then select the **region** **(7)**from the drop down as **West us 2**
 
     ![name](images/21.png)
 
     ![region](images/22.png)
 
-19. From the **Runtime stack** dropdown, choose **Python 3.11** **(8)** Next , select the **Instance memory size** form the drop down as **2048** **(9)**
+20. From the **Runtime stack** dropdown, choose **Python 3.11** **(8)** Next , select the **Instance memory size** form the drop down as **2048** **(9)**
 
     ![stack](images/23.png)
 
     ![memory](images/24.png)
 
-20. Enter **maximum instance count** as **100** **(10)** and press Enter
+21. Enter **maximum instance count** as **100** **(10)** and press Enter
 
     ![created](images/25.png)
 
-21. Under your selected **Subscription** **(1)**, expand the **Function App** **(2)** section. Locate the newly created **Function App newfuntrigger** **(3)**, right-click on it, and select Deploy to **Function App** **(4)**.
+22. Under your selected **Subscription** **(1)**, expand the **Function App** **(2)** section. Locate the newly created **Function App newfuntrigger** **(3)**, right-click on it, and select Deploy to **Function App** **(4)**.
 
     ![deploy](images/26.png)
 
-22. A warning message will appear stating that deploying will overwrite any existing content. Ignore the warning and **click Deploy** **(4)** to proceed.
+23. A warning message will appear stating that deploying will overwrite any existing content. Ignore the warning and **click Deploy** **(4)** to proceed.
 
     ![warning](images/27.png)
 
-23. After deployment is complete, Go to **function_app.py** **(1)** and select the connection variable name **funappstorages_STORAGE** **(2)** and copy.
+24. After deployment is complete, Go to **function_app.py** **(1)** and select the connection variable name **funappstorages_STORAGE** **(2)** and copy.
 
     ![copyvar](images/var.png)
 
-24. Go to Azure Portal, use the search bar at the top. Type **Function app** **(1)** From the search results, **click on Function app** **(2)** under the Services section.
+25. Go to Azure Portal, use the search bar at the top. Type **Function app** **(1)** From the search results, **click on Function app** **(2)** under the Services section.
 
     ![portal](images/var2.png)
 
-25. Under Function App select the function app recently created **newfuntrigger** **(3)** ,In left-side actions Go to **settings** **(4)** under this click on **Environment Variables** **(5)** Now on top-right click on **+ ADD** **(6)**
+26. Under Function App select the function app recently created **newfuntrigger** **(3)** ,In left-side actions Go to **settings** **(4)** under this click on **Environment Variables** **(5)** Now on top-right click on **+ ADD** **(6)**
 
     ![env](images/va3.png)
 
-26. In **Add/Edit Application Settings**. Fill the following details and click on **Apply** **(9)**
+27. In **Add/Edit Application Settings**. Fill the following details and click on **Apply** **(9)**
     
     - Name : `funappstorages_STORAGE` **(7)**
     - Value : `DefaultEndpointsProtocol=https;AccountName=funappstorages;AccountKey=xfnFDMAHlOgTSnVxzs89U
@@ -139,19 +139,21 @@ This exercise is designed to provide hands-on experience in setting up an event-
 
     ![fill](images/var4.png)
   
-27. Click on **Apply** **(10)** and **Confirm** **(11)** Changes.
+28. Click on **Apply** **(10)** and **Confirm** **(11)** Changes.
 
     ![apply](images/var5.png)
 
-28. After saving changes, Go to **Visual studio code** and press **Ctrl+Shift+A**
+29. After saving changes, Go to **Visual studio code** and press **Ctrl+Shift+A**
     
-29. **Navigate to the **Storage Account** **(1)** section and select the Storage Account linked to your Function App **funappstorages** **(2)**. Under the selected Storage Account, expand the **Blob Containers** **(3)** section. Open the **images container** **(4)**, **right-click**, and select** Upload Files** **(5)**.
+30. **Navigate to the **Storage Account** **(1)** section and select the Storage Account linked to your Function App **funappstorages** **(2)**. Under the selected Storage Account, expand the **Blob Containers** **(3)** section. Open the **images container** **(4)**, **right-click**, and select** Upload Files** **(5)**.
 
     ![upload](images/28.png)
 
-30. You will be prompted to select an image file. From the left panel, Navigate to your **Pictures folder** **(6)**, choose the desired **image** **(7)**, and click **Upload** **(8)** to complete the process.
+31. You will be prompted to select an image file. From the left panel, Navigate to your **Pictures folder** **(6)**, choose the desired **image** **(7)**, and click **Upload** **(8)** to complete the process.
 
     ![completed](images/29.png)
+
+32. Go to Azure portal and Navigate to **Function app**  
 
 
 
