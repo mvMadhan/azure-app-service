@@ -91,7 +91,7 @@ This exercise is designed to provide hands-on experience in setting up an event-
 
     ![azure](images/19.png)
 
-17 Under your selected Azure Subscription, expand the **Function app** **(4)** section. Right-click on Function App and select **create function app in Azure** **(5)** to begin the setup process.
+17. Under your selected Azure Subscription, expand the **Function app** **(4)** section. Right-click on Function App and select **create function app in Azure** **(5)** to begin the setup process.
 
     ![create](images/20.png)
 
