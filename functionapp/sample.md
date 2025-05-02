@@ -121,25 +121,31 @@ This exercise is designed to provide hands-on experience in setting up an event-
 
 23. After deployment is complete, Go to **function_app.py** **(1)** and select the connection variable name **funappstorages_STORAGE** **(2)** and copy.
 
+    ![copyvar](images/var.png)
 
 24. Go to Azure Portal, use the search bar at the top. Type **Function app** **(1)** From the search results, **click on Function app** **(2)** under the Services section.
 
+    ![portal](images/var2.png)
 
 25. Under Function App select the function app recently created **newfuntrigger** **(3)** ,In left-side actions Go to **settings** **(4)** under this click on **Environment Variables** **(5)** Now on top-right click on **+ ADD** **(6)**
 
+    ![env](images/va3.png)
 
-26. In **Add/Edit Application Settings**. fill the following details and click on Apply **(9)**
+26. In **Add/Edit Application Settings**. Fill the following details and click on **Apply** **(9)**
     
     - Name : `funappstorages_STORAGE` **(7)**
     - Value : `DefaultEndpointsProtocol=https;AccountName=funappstorages;AccountKey=xfnFDMAHlOgTSnVxzs89U
     /kQm/CsgB3NkpimIF3njdJrwPRXU2BdLppR1uM6IS88UW0GQ+wpikEw+AStfWuzCw==;EndpointSuffix=core.windows.net` **(8)**
 
-27. Click on **Apply** **(10)** and **Confirm** **(11)** changes
+    ![fill](images/var4.png)
+  
+27. Click on **Apply** **(10)** and **Confirm** **(11)** Changes.
 
+    ![apply](images/var5.png)
 
-28. After saving changes,Go to **Visual studio code** and press **Ctrl+Shift+A**
+28. After saving changes, Go to **Visual studio code** and press **Ctrl+Shift+A**
     
-29. **Navigate to the **Storage Account** **(1)** section and select the Storage Account linked to your Function App **funappstorages** **(2)**.Under the selected Storage Account, expand the **Blob Containers** **(3)** section. Open the **images container** **(4)**, **right-click**, and select** Upload Files** **(5)**.
+29. **Navigate to the **Storage Account** **(1)** section and select the Storage Account linked to your Function App **funappstorages** **(2)**. Under the selected Storage Account, expand the **Blob Containers** **(3)** section. Open the **images container** **(4)**, **right-click**, and select** Upload Files** **(5)**.
 
     ![upload](images/28.png)
 
