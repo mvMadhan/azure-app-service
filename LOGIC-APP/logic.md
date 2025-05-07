@@ -18,4 +18,10 @@
 
 5. In the Azure Portal, use the **search bar** at the top. Type **Logic app** (1) From the search results, click on **Logic app** (2) under the Services section.
 
+   ![search](images/1.png)
+
 6. From the **Logic apps** page, click on **+ Add** (1) on top left.
+
+   ![select](images/2.png)
+
+7. 
