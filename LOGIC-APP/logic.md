@@ -24,4 +24,31 @@
 
    ![select](images/2.png)
 
-7. 
+7. Under hosting options , select **Workflow service Plan** **(2)** From Standard and click on **select** **(3)**.
+
+   ![select](images/3.png)
+
+8. Create a new **Logi app** with an Workflow service Plan. Use the folling details.
+
+   |Label|Name|
+   |---|---|
+   |**Subscription**|Innova8 Training|
+   |**Resource group**|shiva.kumarmv|
+
+   ![sub](images/4.png)
+
+9. Under **Instance Details**. Fill the following details.
+
+   |Label|Name|
+   |---|---|
+   |**Logic app Name**|logicapplatest|
+   |**region**|west us 2|
+
+
+   ![name](images/5.png)
+
+8. n
+
+   ![zone](images/6.png)
+
+
