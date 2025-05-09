@@ -50,11 +50,11 @@
 
    ![name](images/5.png)
 
-8. Leave Zone redundancy as default and click on **Next : Storage** **(6)**
+10. Leave Zone redundancy as default and click on **Next : Storage** **(6)**
 
    ![zone](images/6.png)
 
-9. Under storage fill the following details and click on **Review + Create** **(5)**
+11. Under storage fill the following details and click on **Review + Create** **(5)**
 
    - **Storage type** : Azure storage
      
@@ -66,21 +66,21 @@
     
      ![val](images/7.png)
 
-10. After Validation click on **Create**.
+12. After Validation click on **Create**.
 
     ![img](images/8.png)
 
-11. Once deployment is done, click **Go to Resource**  In the new page.
+13. Once deployment is done, click **Go to Resource**  In the new page.
 
     ![go](images/9.png)
 
-12. In the Overview of Logic app Click the workflow and select **workflows** **(1)** in the left side bar.
+14. In the Overview of Logic app Click the workflow and select **workflows** **(1)** in the left side bar.
 
     - Click on **+ Add** **(2)** and select **Add** **(3)**
 
-   ![select](images/10.png)
+      ![select](images/10.png)
 
-13. A new workflow will open in right-side and fill the following details.
+15. A new workflow will open in right-side and fill the following details.
 
     - **Workflow Name** : workflownew
       
@@ -90,19 +90,19 @@
 
       ![img](images/11.png)
 
-14. d
+16. d
 
-15. Click on Add a trigge , a new add trigger will open on right side.
+17. Click on Add a trigge , a new add trigger will open on right side.
 
     - Navigate to search bar and search request (1) and click on request app.
    
       ![nav](images/12.png)
 
-16. Click on Plus button **+** **(1)** below the Http Request **Add an action** **(2)** will pops click on it.
+18. Click on Plus button **+** **(1)** below the Http Request **Add an action** **(2)** will pops click on it.
 
     ![req](images/13.png)
 
-17. A new **add an action** will open on right side.
+19. A new **add an action** will open on right side.
 
     - Navigate to search bar and search **outlook** (1) and click on **send an email**.
 
@@ -112,11 +112,11 @@
    
       ![sign](images/15.png)
 
-18. Enter username and password or click on already existing account.
+20. Enter username and password or click on already existing account.
 
     ![img](images/16.png)
 
-19. Enter the following details to send mail and click on **save** **(8)**.
+21. Enter the following details to send mail and click on **save** **(8)**.
 
      - **To** : madhanmv580@gmail.com
    
@@ -126,13 +126,13 @@
    
        ![img](images/17.png)
 
-20. On top left click on **Run** **(9)**.
+22. On top left click on **Run** **(9)**.
 
     ![img](images/18.png)
 
-21. check mail to verify the message.
+23. check mail to verify the message.
 
-    ![img](images/19.png)
+    ![img](images/output.png)
 
 
 
