@@ -68,17 +68,17 @@
 
 10. After Validation click on **Create**.
 
-    ![img](images/7.png)
+    ![img](images/8.png)
 
 11. Once deployment is done, click **Go to Resource**  In the new page.
 
-    ![go](images/8.png)
+    ![go](images/9.png)
 
 12. In the Overview of Logic app Click the workflow and select **workflows** **(1)** in the left side bar.
 
     - Click on **+ Add** **(2)** and select **Add** **(3)**
 
-   ![select](images/9.png)
+   ![select](images/10.png)
 
 13. A new workflow will open in right-side and fill the following details.
 
@@ -88,15 +88,55 @@
    
     - **click** : create
 
+      ![img](images/11.png)
+
 14. d
 
-15. Click on Add a trigge , a new add trigger will open on right side and fill the blanks.
+15. Click on Add a trigge , a new add trigger will open on right side.
 
-    - Navigate search bar and search request (1) and click on request app.
+    - Navigate to search bar and search request (1) and click on request app.
    
       ![nav](images/12.png)
 
-16. 
+16. Click on Plus button **+** **(1)** below the Http Request **Add an action** **(2)** will pops click on it.
+
+    ![req](images/13.png)
+
+17. A new **add an action** will open on right side.
+
+    - Navigate to search bar and search **outlook** (1) and click on **send an email**.
+
+      ![out](images/14.png)
+
+    - Click on **Sign in**
+   
+      ![sign](images/15.png)
+
+18. Enter username and password or click on already existing account.
+
+    ![img](images/16.png)
+
+19. Enter the following details to send mail and click on **save** **(8)**.
+
+     - **To** : madhanmv580@gmail.com
+   
+     - **subject** : app logic
+   
+     - **Body** : message from app logic
+   
+       ![img](images/17.png)
+
+20. On top left click on **Run** **(9)**.
+
+    ![img](images/18.png)
+
+21. check mail to verify the message.
+
+    ![img](images/19.png)
+
+
+
+    
     
 
 
