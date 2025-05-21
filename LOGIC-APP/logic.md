@@ -90,9 +90,9 @@
 
       ![img](images/11.png)
 
-16. After creating go to resource under **Development Tolls** click on **Logic app designer**
+16. After creating Blank Workflow click on Trigger
 
-17. Click on Add a trigge , a new add trigger will open on right side.
+17. Click on Add a trigger , a new add trigger will open on right side.
 
     - Navigate to search bar and search request (1) and click on request app.
    
