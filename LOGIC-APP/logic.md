@@ -90,7 +90,7 @@
 
       ![img](images/11.png)
 
-16. d
+16. After creating go to resource under **Development Tolls** click on **Logic app designer**
 
 17. Click on Add a trigge , a new add trigger will open on right side.
 
