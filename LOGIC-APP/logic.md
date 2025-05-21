@@ -1,3 +1,13 @@
+# HTTP-Triggered Email Workflow Using Azure Logic App
+
+## Overview
+
+In this scenario, you will create a Logic App using the Azure Portal that is triggered by an HTTP request. When the Logic App receives the request, it will automatically send an email using a configured email connector such as Outlook or Gmail. This demonstrates how Logic Apps can be used to create simple yet powerful automated workflows that integrate webhooks and communication tools without writing code.
+
+## Prerequisites
+
+  - An Azure account with an active subscription. [Create/Login Azure account](https://portal.azure.com/#home)
+
 ## Getting Started With Lab
 
 1. Click on this link to [Login to azure account](https://portal.azure.com/#home)
