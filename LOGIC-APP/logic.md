@@ -100,19 +100,21 @@ In this scenario, you will create a Logic App using the Azure Portal that is tri
 
       ![img](images/11.png)
 
-16. After creating Blank Workflow click on Trigger
+16. After creating Blank Workflow You should now see an "Add a trigger" (1) option. Click on it.
 
-17. Click on Add a trigger , a new add trigger will open on right side.
+    ![img](images/trigger.png)
+    
+18. Click on Add a trigger , a new add trigger will open on right side.
 
     - Navigate to search bar and search request (1) and click on request app.
    
       ![nav](images/12.png)
 
-18. Click on Plus button **+** **(1)** below the Http Request **Add an action** **(2)** will pops click on it.
+19. Click on Plus button **+** **(1)** below the Http Request **Add an action** **(2)** will pops click on it.
 
     ![req](images/13.png)
 
-19. A new **add an action** will open on right side.
+20. A new **add an action** will open on right side.
 
     - Navigate to search bar and search **outlook** (1) and click on **send an email**.
 
@@ -122,11 +124,11 @@ In this scenario, you will create a Logic App using the Azure Portal that is tri
    
       ![sign](images/15.png)
 
-20. Enter username and password or click on already existing account.
+21. Enter username and password or click on already existing account.
 
     ![img](images/16.png)
 
-21. Enter the following details to send mail and click on **save** **(8)**.
+22. Enter the following details to send mail and click on **save** **(8)**.
 
      - **To** : madhanmv580@gmail.com
    
@@ -136,11 +138,11 @@ In this scenario, you will create a Logic App using the Azure Portal that is tri
    
        ![img](images/logic.png)
 
-22. On top left click on **Run** **(9)**.
+23. On top left click on **Run** **(9)**.
 
     ![img](images/18.png)
 
-23. check mail to verify the message.
+24. check mail to verify the message.
 
     ![img](images/logicapp.png)
     
