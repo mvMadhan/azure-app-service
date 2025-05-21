@@ -130,11 +130,11 @@ In this scenario, you will create a Logic App using the Azure Portal that is tri
 
      - **To** : madhanmv580@gmail.com
    
-     - **subject** : app logic
+     - **subject** : message from logic app
    
-     - **Body** : message from app logic
+     - **Body** : Hi this is automated message from azure logic app
    
-       ![img](images/17.png)
+       ![img](images/logic.png)
 
 22. On top left click on **Run** **(9)**.
 
@@ -142,7 +142,8 @@ In this scenario, you will create a Logic App using the Azure Portal that is tri
 
 23. check mail to verify the message.
 
-    ![img](images/output.png)
+    ![img](images/logicapp.png)
+    
 
 
 
