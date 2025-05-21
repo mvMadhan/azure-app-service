@@ -130,7 +130,7 @@ In this scenario, you will create a Logic App using the Azure Portal that is tri
 
 22. Enter the following details to send mail and click on **save** **(8)**.
 
-     - **To** : madhanmv580@gmail.com
+     - **To** : madhanmv580@outlook.com
    
      - **subject** : message from logic app
    
