@@ -27,7 +27,11 @@
 
 1. Go to your **Dashboard**. On the left-hand panel under **Top repositories**, find and click on **skills-copilot-codespaces-vscode**
 
+   ![](git1.png)
+
 1. Click the Code tab located at the top left of the screen. Click the Code (1) button located in the middle of the page. Click the Codespaces (2) tab on the box that pops up and then click on existing codespace is listed (3).
+
+   ![](git2.png)
 
    >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
 
@@ -42,4 +46,26 @@
       >**Note**: Click on **Allow** if the extension **Github Codepsaces** wants to sign in using Github.
 
    ![image](https://github.com/user-attachments/assets/d5681cbc-2b41-4758-8f9d-99abe0392618)
+
+1. Click on Continue on Select user to authorize Visual Studio Code.
+
+   ![image](https://github.com/user-attachments/assets/cae3e10e-4796-45f1-9d28-827cd3e0c1b4)
+   
+1. You will encounter a pop-up prompt, Click Open to proceed.
+
+   ![image](https://github.com/user-attachments/assets/32a8e320-e545-4b0b-adb8-2c17328256fb)
+
+1. In visual studio code at the top next to the search bar, click on the showed icon, to sign in to GitHub.
+
+   ![image](https://github.com/user-attachments/assets/2e8948fd-bb4e-4b3f-a275-84439e0901e2)
+
+1. On the pop-up window that appears, click on Sign in.
+   
+   ![image](https://github.com/user-attachments/assets/f1c21043-ed7c-4ba2-b74a-ce739c0d69f3)
+
+1. Click Continue, once the Select user to authorize Visual Studio Code tab appears in the browser.
+
+   ![image](https://github.com/user-attachments/assets/fc1b7f71-b278-419d-b93f-8c46c4763816)
+
+
 
