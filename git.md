@@ -67,5 +67,4 @@
 
    ![image](https://github.com/user-attachments/assets/fc1b7f71-b278-419d-b93f-8c46c4763816)
 
-
-
+1. Now, click on Next from the lower right corner to move on to the next page.
