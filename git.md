@@ -25,11 +25,11 @@
    ![](../media/authgit.png)
    ![image](https://github.com/user-attachments/assets/f2294b67-e807-4314-ac75-064946d02248)
 
-1. Go to your **Dashboard**. On the left-hand panel under **Top repositories**, find and click on **skills-copilot-codespaces-vscode**
+1. Go to your **Dashboard**. On the left-hand panel under **Top repositories**, find and click on **skills-copilot-codespaces-vscode**.
 
    ![](git1.png)
 
-1. Click the Code tab located at the top left of the screen. Click the Code (1) button located in the middle of the page. Click the Codespaces (2) tab on the box that pops up and then click on existing codespace is listed (3).
+1. Click the Code (1) button located in the middle of the page. Click the Codespaces (2) tab on the box that pops up and then click on existing codespace is listed (3).
 
    ![](git2.png)
 
